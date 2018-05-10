@@ -1,0 +1,178 @@
+
+
+	/* Resetting Default margin and padding */
+	
+	{
+		margin:0px;
+		padding: 0px;
+		
+	}
+
+	/* Header Part Design */
+	
+	.himg
+	{
+		 height="60px";
+		 width="60px";
+	}
+	header
+	{
+		box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.26);
+		width: 100%;
+	}
+
+	.heading
+	{
+		font-family: Arial;
+		font-size: 3em;
+		display: inline-flex;
+		margin-left: 20%;
+		margin-right: 35%;
+		padding: 1% 0%;
+	}
+	.heading span
+	{
+		padding-top: 4px;
+		margin-left: 30px;
+		display:grid;
+	}
+
+
+	/* Whole Body Part */
+	.myContainer
+	{
+		padding-left: 3px;
+		padding-right:3px;
+		box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.26);
+		margin-left: 20%;
+		margin-right: 20%;
+		display: flex;
+		flex-direction: column;
+		position:relative;
+
+		
+	}
+
+	/*Navigation Bar Part */
+
+	.navbar ul 
+	{
+		list-style-type: none;
+		display: flex;
+	}
+	.navbar ul li
+	{
+		padding: 2% 9%;
+	}
+	.navbar a
+	{
+		text-decoration: none;
+		color : black;
+	}
+	.navbar ul li:hover
+	{
+		background-color: #adc6a9;
+	}
+	.yonko 
+	{
+		width: 100%;
+	}
+	.icon
+	{
+		display: none;
+		
+	}
+	/* Main Body Part */
+	.row-first {
+	display:grid;
+	grid-template-columns: 50% 50%;
+
+	}
+	.row-second
+	{
+		display:grid;
+	   grid-template-columns: 50% 50%;
+
+	}
+	/* .col-1 
+	{
+		width:100%;
+	}
+	.col-2
+	{
+		width:100%;
+		padding-top:10px;
+		
+	} */
+	.news
+	{
+		margin-left: 33px;
+	}
+	#top
+	{
+		display: inline;
+	}
+
+	.news li
+	{
+		margin: 5px 0px 5px 0px ;
+	}
+	.news li a
+	{
+		text-decoration: none;
+		color: #557726;
+	}
+
+	/* second article  */
+	#bounty {
+		font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+		border-collapse: collapse;
+		width: 100%;
+		font-size: 13px;
+	}
+		#bounty th
+	{
+		background-color: #28ba76;
+		padding-top: 12px;
+		padding-bottom: 12px;
+		text-align: left;
+		color: white;
+	}
+
+	#bounty tr:nth-child(even)
+	{
+		background-color: #f2f2f2;
+	}
+
+	#bounty td, #bounty th
+	{
+		border: 1px solid #ddd;
+		padding: 8px;
+	}
+	.col1
+	{
+		padding-left:7px;
+		width:100%; 
+		
+	}
+	#more-right
+	{
+	float:right;
+	}
+	.newspara p
+	{
+		margin-bottom: 20px;
+	}
+	.newspara img
+	{
+		padding-right: 20px;
+	}
+	footer a
+	{
+		display: inline-flex;
+		padding: 3px 60px;
+		text-decoration: none;
+		color: black;
+	}
+
+	

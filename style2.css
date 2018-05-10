@@ -1,0 +1,20 @@
+
+.row-first
+{
+ display: grid;
+ grid-template-columns: 100%;
+}
+.row-second 
+{
+ display: grid;
+ grid-template-columns: 100%;
+}
+.navbar
+{
+	display: none;
+}
+.footer
+{
+	display: flex;
+	flex-direction: row;
+}
