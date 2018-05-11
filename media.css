@@ -1,20 +1,22 @@
-
-.row-first
+@media screen and (max-width:840px)
 {
- display: grid;
- grid-template-columns: 100%;
-}
-.row-second 
-{
- display: grid;
- grid-template-columns: 100%;
-}
-.navbar
-{
-	display: none;
-}
-.footer
-{
-	display: flex;
-	flex-direction: row;
+	.row-first
+	{
+	 display: grid;
+	 grid-template-columns: 100%;
+	}
+	.row-second 
+	{
+	 display: grid;
+	 grid-template-columns: 100%;
+	}
+	.navbar
+	{
+		display: none;
+	}
+	.footer
+	{
+		display: flex;
+		flex-direction: row;
+	}
 }
