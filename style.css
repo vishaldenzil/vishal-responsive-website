@@ -1,9 +1,5 @@
 /* Header Part Design */
 
-.himg {
-  height="60px";
-  width="60px";
-}
 
 header {
   box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.26);
@@ -56,7 +52,8 @@ header {
 }
 
 .yonko {
-  width: 100%;
+   width:100%;
+   height:100%;
 }
 
 .icon {
